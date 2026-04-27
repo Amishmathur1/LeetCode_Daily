@@ -64,6 +64,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 | ------- |
 | [0055-jump-game](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0055-jump-game) |
 | [0890-lemonade-change](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0890-lemonade-change) |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2199-two-furthest-houses-with-different-colors](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2199-two-furthest-houses-with-different-colors) |
@@ -116,17 +117,21 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 ## Depth-First Search
 |  |
 | ------- |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Union-Find
 |  |
 | ------- |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Matrix
 |  |
 | ------- |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
 <!---LeetCode Topics End-->
