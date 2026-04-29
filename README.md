@@ -69,6 +69,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2199-two-furthest-houses-with-different-colors](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2199-two-furthest-houses-with-different-colors) |
 | [2550-words-within-two-edits-of-dictionary](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2550-words-within-two-edits-of-dictionary) |
+| [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 ## Two Pointers
 |  |
@@ -98,6 +99,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0055-jump-game) |
+| [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
 ## Counting
 |  |
 | ------- |
@@ -134,4 +136,9 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 | ------- |
 | [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
+| [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
+## Prefix Sum
+|  |
+| ------- |
+| [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
 <!---LeetCode Topics End-->
