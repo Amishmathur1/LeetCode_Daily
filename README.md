@@ -63,6 +63,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0055-jump-game) |
+| [0396-rotate-function](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0396-rotate-function) |
 | [0890-lemonade-change](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0890-lemonade-change) |
 | [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -99,6 +100,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0055-jump-game) |
+| [0396-rotate-function](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0396-rotate-function) |
 | [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
 ## Counting
 |  |
@@ -107,6 +109,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 ## Math
 |  |
 | ------- |
+| [0396-rotate-function](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0396-rotate-function) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 ## Geometry
 |  |
