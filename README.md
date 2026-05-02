@@ -101,6 +101,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 | ------- |
 | [0055-jump-game](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0055-jump-game) |
 | [0396-rotate-function](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0396-rotate-function) |
+| [0804-rotated-digits](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0804-rotated-digits) |
 | [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
 ## Counting
 |  |
@@ -110,6 +111,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [0396-rotate-function](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0396-rotate-function) |
+| [0804-rotated-digits](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0804-rotated-digits) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
 ## Geometry
 |  |
