@@ -90,6 +90,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 ## String
 |  |
 | ------- |
+| [0812-rotate-string](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0812-rotate-string) |
 | [2550-words-within-two-edits-of-dictionary](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2550-words-within-two-edits-of-dictionary) |
 | [3019-furthest-point-from-origin](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3019-furthest-point-from-origin) |
 ## Trie
@@ -146,4 +147,8 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
