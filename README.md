@@ -72,6 +72,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 | [2550-words-within-two-edits-of-dictionary](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2550-words-within-two-edits-of-dictionary) |
 | [3470-maximum-score-from-grid-operations](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3470-maximum-score-from-grid-operations) |
 | [3781-maximize-the-distance-between-points-on-a-square](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3781-maximize-the-distance-between-points-on-a-square) |
+| [4216-weighted-word-mapping](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/4216-weighted-word-mapping) |
 ## Two Pointers
 |  |
 | ------- |
@@ -93,6 +94,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 | [0812-rotate-string](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0812-rotate-string) |
 | [2550-words-within-two-edits-of-dictionary](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2550-words-within-two-edits-of-dictionary) |
 | [3019-furthest-point-from-origin](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/3019-furthest-point-from-origin) |
+| [4216-weighted-word-mapping](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/4216-weighted-word-mapping) |
 ## Trie
 |  |
 | ------- |
@@ -151,4 +153,8 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/0812-rotate-string) |
+## Simulation
+|  |
+| ------- |
+| [4216-weighted-word-mapping](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/4216-weighted-word-mapping) |
 <!---LeetCode Topics End-->
