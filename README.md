@@ -77,6 +77,7 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/1984-maximum-distance-between-a-pair-of-values) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -157,4 +158,8 @@ I am a student at **SRM IST** and **Tech Head at Spikers Club**. This repository
 |  |
 | ------- |
 | [4216-weighted-word-mapping](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/4216-weighted-word-mapping) |
+## Linked List
+|  |
+| ------- |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Amishmathur1/LeetCode_Daily/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 <!---LeetCode Topics End-->
