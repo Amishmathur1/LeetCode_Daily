@@ -2,7 +2,7 @@ class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if amount == 0:
             return 0
-            
+
         dq = deque([amount])
         coins_needed = 0
         visited = {amount}
