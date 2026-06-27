@@ -1,3 +1,12 @@
 class Solution:
     def concatWithReverse(self, nums: list[int]) -> list[int]:
-        return nums + nums[::-1]
+        rev = nums[:]
+        def reverse(l, r):
+            if l>=r:
+                return 
+            
+            rev[l], rev[r] = rev[r], rev[l]
+            reverse(l+1, r-1)
+        reverse(0, len(nums)-1)
+
+        return nums+rev
