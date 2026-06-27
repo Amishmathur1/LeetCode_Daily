@@ -1,23 +1,17 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         x = ''
-
-        #normallizing the string
         for i in s:
-            if i.isalpha() or i.isdigit():
-                i = i.lower()
-                x += i
-            else:
-                continue
+            if i.isalnum():
+                x += i.lower()
+        
+        print(x)
 
-        #using 2 pointers for palindrome checking
-        l, r = 0, len(x)-1
-
-        while l < r:
-            if x[l] == x[r]:
-                l += 1
-                r -= 1
-            else:
+        def check(l, r):
+            if l >= r:
+                return True
+            if x[l] != x[r]:
                 return False
-                
-        return True
+            
+            return check(l+1, r-1)
+        return check(0, len(x)-1)
