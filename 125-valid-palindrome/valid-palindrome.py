@@ -1,9 +1,12 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        x = ''
+        x = []
         for i in s:
             if i.isalnum():
-                x += i.lower()
+                x.append(i.lower())
+        
+        x = ''.join(x)
+        
         
         print(x)
 
