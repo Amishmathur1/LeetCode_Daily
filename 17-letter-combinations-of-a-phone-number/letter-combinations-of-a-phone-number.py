@@ -1,6 +1,7 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        
+        if digits == '':
+            return []
         ans = []
         
         d = {
@@ -24,5 +25,4 @@ class Solution:
                 dfs(ind + 1, path)
                 path.pop()
         dfs(0, [])
-        if ans == ['']: return []
         return ans        
