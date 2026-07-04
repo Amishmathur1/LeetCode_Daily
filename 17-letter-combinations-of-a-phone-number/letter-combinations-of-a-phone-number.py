@@ -1,5 +1,8 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
+        
+        ans = []
+        
         d = {
             '2' : 'abc',
             '3' : 'def',
@@ -9,17 +12,17 @@ class Solution:
             '7' : 'pqrs',
             '8' : 'tuv',
             '9' : 'wxyz'
-            }
-        res = ['']
+        }
 
-        for digit in digits:
-            temp = []
-
-            for prefix in res:
-                for ch in d[digit]:
-                    temp.append(prefix + ch)
-
-            res = temp
-
-        return (res)
-                
+        def dfs(ind, path):
+            if ind == len(digits):
+                ans.append(''.join(path))
+                return
+            
+            for ch in d[digits[ind]]:
+                path.append(ch)
+                dfs(ind + 1, path)
+                path.pop()
+        dfs(0, [])
+        if ans == ['']: return []
+        return ans        
