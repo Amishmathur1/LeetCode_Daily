@@ -1,21 +1,20 @@
 class Solution:
-    def countPrimes(self, n: int) -> int:
-
-        if n <= 2:
+    def countPrimes(self, n: int):
+        if n < 2:
             return 0
 
-        prime = [True] * n
-        prime[0] = prime[1] = False
+        a = [0 for i in range(n)]
+        a[0] = 1
+        a[1] = 1
 
-        p = 2
+        for i in range(2, n):
+            for j in range(i + i, n, i):
+                a[j] = 1
 
-        while p * p < n:
+        count = 0
 
-            if prime[p]:
+        for i in range(n):
+            if a[i] == 0:
+                count += 1
 
-                for multiple in range(p * p, n, p):
-                    prime[multiple] = False
-
-            p += 1
-
-        return sum(prime)
+        return count
