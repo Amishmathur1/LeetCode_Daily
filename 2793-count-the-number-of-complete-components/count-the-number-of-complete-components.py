@@ -13,8 +13,7 @@ class Solution:
         #########################
 
         visited = set()
-        count = 0
-        
+        count = 0        
 
         def bfs(node):
             dq = deque([node])
