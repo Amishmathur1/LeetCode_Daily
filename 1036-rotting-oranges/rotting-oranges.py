@@ -1,7 +1,6 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         dq = deque([])
-        visited = set()
         cnt = 0
 
         row, col = len(grid), len(grid[0])
@@ -12,7 +11,6 @@ class Solution:
                     cnt += 1
                 if grid[r][c] == 2:
                     dq.append((r,c))
-                    visited.add((r,c))
         
         if cnt == row*col:
             return 0
@@ -31,12 +29,10 @@ class Solution:
                     
                     if (nr < 0 or nr >= row or
                         nc < 0 or nc >= col or
-                        grid[nr][nc] != 1 or 
-                        (nr, nc) in visited):
+                        grid[nr][nc] != 1):
                         continue
 
                     grid[nr][nc] = 2
-                    visited.add((nr, nc))
                     dq.append((nr, nc))
         
         for r in range(row):
