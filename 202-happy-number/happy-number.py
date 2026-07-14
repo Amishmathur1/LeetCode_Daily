@@ -1,6 +1,6 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        visited = set()
+        visited = []
         new_num = str(n)
 
         while 1:
@@ -14,5 +14,5 @@ class Solution:
             if x in visited:
                 return False
 
-            visited.add(x)
+            visited.append(x)
             new_num = str(x)
