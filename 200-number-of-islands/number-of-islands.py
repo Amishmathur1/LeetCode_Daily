@@ -5,7 +5,7 @@ class Solution:
         row = len(grid)
         col = len(grid[0])
         dirs = ((0,1), (0,-1), (1,0), (-1,0))
-        @lru_cache(None)
+        # @lru_cache(None)
         def dfs(r, c):
             if (r < 0 or r >= row or
                 c < 0 or c >= col or 
