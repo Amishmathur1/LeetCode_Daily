@@ -7,8 +7,10 @@ class Solution:
 
         for i in range(1, len(nums)):
             curr += nums[i]
-            if curr < nums[i]:
+            if curr > nums[i]:
+                maxi = max(maxi, curr)
+            else:
                 curr = nums[i]
-            maxi = max(maxi, curr)                
+                maxi = max(maxi, curr)
 
         return (maxi)
