@@ -9,7 +9,7 @@ class Solution:
             else:
                 break
         
-        nums = set(nums)
+        # nums = set(nums)
         while True:
             if cur_sum in nums:
                 cur_sum += 1
