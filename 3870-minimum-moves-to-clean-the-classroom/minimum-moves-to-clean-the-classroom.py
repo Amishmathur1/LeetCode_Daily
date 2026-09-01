@@ -1,80 +1,52 @@
 from collections import deque
 
 class Solution:
-    def minMoves(self, classroom, energy):
-        m = len(classroom)
-        n = len(classroom[0])
+    def minMoves(self, classroom: list[list[str]], energy: int) -> int:
+        m, n = len(classroom), len(classroom[0])
+        sr = sc = -1
+        litter_id = [[-1] * n for _ in range(m)]
+        litter_count = 0
 
-        sr, sc = -1, -1
-        cnt = 0
+        for r in range(m):
+            for c in range(n):
+                cell = classroom[r][c]
+                if cell == 'S':
+                    sr, sc = r, c
+                elif cell == 'L':
+                    litter_id[r][c] = litter_count
+                    litter_count += 1
 
-        # Give each litter an ID for bitmask
-        id = [[-1] * n for _ in range(m)]
-
-        for i in range(m):
-            for j in range(n):
-                if classroom[i][j] == 'S':
-                    sr = i
-                    sc = j
-                if classroom[i][j] == 'L':
-                    id[i][j] = cnt
-                    cnt += 1
-
-        masks = 1 << cnt
-        fullMask = masks - 1
-
-        # best[r][c][mask] = max energy reached at this state
-        best = [[[-1] * masks for _ in range(n)] for _ in range(m)]
-
-        q = deque()
-
-        q.append((sr, sc, 0, energy, 0))
+        full_mask = (1 << litter_count) - 1
+        best = [[[-1] * (1 << litter_count) for _ in range(n)] for _ in range(m)]
+        
+        q = deque([(sr, sc, 0, energy, 0)])
         best[sr][sc][0] = energy
 
-        dr = [-1, 1, 0, 0]
-        dc = [0, 0, -1, 1]
+        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
         while q:
             r, c, mask, en, dist = q.popleft()
 
-            # All litter collected
-            if mask == fullMask:
+            if mask == full_mask:
                 return dist
 
-            # No energy, cannot move
             if en == 0:
                 continue
 
-            for d in range(4):
+            for dr, dc in directions:
+                nr, nc = r + dr, c + dc
 
-                nr = r + dr[d]
-                nc = c + dc[d]
-
-                # Outside grid
-                if nr < 0 or nr >= m or nc < 0 or nc >= n:
+                if not (0 <= nr < m and 0 <= nc < n) or classroom[nr][nc] == 'X':
                     continue
 
-                # Obstacle
-                if classroom[nr][nc] == 'X':
-                    continue
-
-                newEn = en - 1
-                newMask = mask
-
-                # Collect litter
+                new_mask = mask
                 if classroom[nr][nc] == 'L':
-                    newMask |= (1 << id[nr][nc])
+                    new_mask |= (1 << litter_id[nr][nc])
 
-                # Recharge
-                if classroom[nr][nc] == 'R':
-                    newEn = energy
+                new_en = energy if classroom[nr][nc] == 'R' else en - 1
 
-                # Already reached with more energy
-                if best[nr][nc][newMask] >= newEn:
-                    continue
-
-                best[nr][nc][newMask] = newEn
-
-                q.append((nr, nc, newMask, newEn, dist + 1))
+                if best[nr][nc][new_mask] < new_en:
+                    best[nr][nc][new_mask] = new_en
+                    q.append((nr, nc, new_mask, new_en, dist + 1))
 
         return -1
