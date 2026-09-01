@@ -1,5 +1,3 @@
-from collections import deque
-
 class Solution:
     def minMoves(self, classroom: list[list[str]], energy: int) -> int:
         m, n = len(classroom), len(classroom[0])
