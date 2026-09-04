@@ -4,7 +4,6 @@ class Solution:
         for i in range(len(nums)):
             right = nums[:i+1]
             left = nums[i:]
-            print(right, left)
 
             if max(right) - min(left) <= k:
                 return (i)
