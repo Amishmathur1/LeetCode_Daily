@@ -1,7 +1,5 @@
 class Solution:
     def evaluate(self, s: str, knowledge: list[list[str]]) -> str:
-        # s = "hi(name)"
-        # knowledge = [["a","b"]]
         
         result = re.findall(r'\([^)]*\)|[a-zA-Z]+', s)
 
