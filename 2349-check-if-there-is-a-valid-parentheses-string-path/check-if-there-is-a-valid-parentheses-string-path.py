@@ -5,7 +5,7 @@ class Solution:
         if ~(m + n) & 1 or A[0][0] == ")" or A[-1][-1] == "(":
             return False
 
-        @cache
+        @lru_cache (None)
         def dfs(i, j, x):
             x += 1 - ((ord(A[i][j]) & 1) << 1)
 
